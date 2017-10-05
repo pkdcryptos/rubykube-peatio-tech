@@ -10,7 +10,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand page-scroll" href="#main"><img src="logo.png" width="80" height="30" alt="Logo"></a>
+          <a class="navbar-brand page-scroll" href="#main"><img src="../assets/logo.png" width="80" height="30" alt="Logo"></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">

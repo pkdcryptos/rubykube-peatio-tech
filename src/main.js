@@ -6,6 +6,14 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './assets/css/custom.css'
+import './assets/css/animate.css'
+import 'owl.carousel/dist/assets/owl.carousel.min.css'
+import 'owl.carousel/dist/assets/owl.theme.default.min.css'
+import 'ionicons/dist/css/ionicons.min.css'
+import './assets/css/style.css'
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
