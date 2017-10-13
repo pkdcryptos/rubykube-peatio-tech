@@ -13,7 +13,7 @@
           </div>
         </div>
         <div class="col-md-12">
-          <img class="img-responsive wow fadeInDown" data-wow-delay="0.2s" src="/img/dash.png" alt="Hero Image" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+          <img class="img-responsive wow fadeInDown" data-wow-delay="0.2s" src="../assets/img/dash.png" alt="Hero Image" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
         </div>
       </div>
     </div>
@@ -22,28 +22,43 @@
     <div class="client-section">
       <div class="container text-center">
         <div class="clients owl-carousel owl-theme" style="opacity: 1; display: block;">
-          <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 2736px; left: 0px; display: block; transition: all 800ms ease; transform: translate3d(-228px, 0px, 0px);"><div class="owl-item" style="width: 228px;"><div class="single">
-            <img src="/img/client1.png" alt="Image">
-          </div></div><div class="owl-item" style="width: 228px;"><div class="single">
-            <img src="/img/client2.png" alt="Image">
-          </div></div><div class="owl-item" style="width: 228px;"><div class="single">
-            <img src="/img/client3.png" alt="Image">
-          </div></div><div class="owl-item" style="width: 228px;"><div class="single">
-            <img src="/img/client4.png" alt="Image">
-          </div></div><div class="owl-item" style="width: 228px;"><div class="single">
-            <img src="/img/client5.png" alt="Image">
-          </div></div><div class="owl-item" style="width: 228px;"><div class="single">
-            <img src="/img/client6.png" alt="Image">
-          </div></div></div></div>
-
-
-
-
-
+          <div class="owl-wrapper-outer">
+            <div class="owl-wrapper" style="width: 2736px; left: 0px; display: block; transition: all 800ms ease; transform: translate3d(-228px, 0px, 0px);">
+              <div class="owl-item" style="width: 228px;">
+                <div class="single">
+                  <img src="../assets/img/client1.png" alt="Image">
+                </div>
+              </div>
+              <div class="owl-item" style="width: 228px;">
+                <div class="single">
+                  <img src="../assets/img/client2.png" alt="Image">
+                </div>
+              </div>
+              <div class="owl-item" style="width: 228px;">
+                <div class="single">
+                  <img src="../assets/img/client3.png" alt="Image">
+                </div>
+              </div>
+              <div class="owl-item" style="width: 228px;">
+                <div class="single">
+                  <img src="../assets/img/client4.png" alt="Image">
+                </div>
+              </div>
+              <div class="owl-item" style="width: 228px;">
+                <div class="single">
+                  <img src="../assets/img/client5.png" alt="Image">
+                </div>
+              </div>
+              <div class="owl-item" style="width: 228px;">
+                <div class="single">
+                  <img src="../assets/img/client6.png" alt="Image">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
 
     <div class="pitch text-center">
       <div class="container">
@@ -136,7 +151,7 @@
         </div>
 
         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none;">
-          <img class="img-responsive" src="/img/iphone.png" alt="App">
+          <img class="img-responsive" src="../assets/img/iphone.png" alt="App">
         </div>
 
         <div class="col-md-4 features-left">
@@ -178,7 +193,6 @@
       </div>
     </div>
 
-
     <div class="feature-sub">
       <div class="container">
         <div class="sub-inner">
@@ -192,7 +206,7 @@
       <div class="container">
         <div class="features-inner">
           <div class="col-md-6">
-            <img class="img-responsive wow fadeInDown" data-wow-delay="0.2s" src="/img/dash_landscape.png" alt="Features" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <img class="img-responsive wow fadeInDown" data-wow-delay="0.2s" src="../assets/img/dash_landscape.png" alt="Features" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
           </div>
           <div class="col-md-5 col-md-offset-1 nopadding">
             <div class="features-list">
@@ -213,71 +227,89 @@
       </div>
     </div>
 
-
     <div id="review-section" class="review-section">
       <div class="container">
         <div class="col-md-10 col-md-offset-1">
           <div class="reviews owl-carousel owl-theme" style="opacity: 1; display: block;">
-            <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 9200px; left: 0px; display: block; transition: all 800ms ease; transform: translate3d(-2760px, 0px, 0px);"><div class="owl-item" style="width: 920px;"><div class="review-single"><img class="img-circle" src="/img/icon.png" alt="Client Testimonoal">
-              <div class="review-text wow fadeInDown" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
-                <h3>- Neil Young</h3>
-                <h3>Vice President Primal Inc</h3>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
+            <div class="owl-wrapper-outer">
+              <div class="owl-wrapper" style="width: 9200px; left: 0px; display: block; transition: all 800ms ease; transform: translate3d(-2760px, 0px, 0px);">
+                <div class="owl-item" style="width: 920px;">
+                  <div class="review-single">
+                    <img class="img-circle" src="../assets/img/icon.png" alt="Client Testimonoal">
+                    <div class="review-text wow fadeInDown" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
+                      <h3>- Neil Young</h3>
+                      <h3>Vice President Primal Inc</h3>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 920px;">
+                  <div class="review-single">
+                    <img class="img-circle" src="../assets/img/icon.png" alt="Client Testimonoal">
+                    <div class="review-text">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
+                      <h3>- Kate Abbot</h3>
+                      <h3>President Proton LLC</h3>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-ios-star-half"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 920px;">
+                  <div class="review-single">
+                    <img class="img-circle" src="../assets/img/icon.png" alt="Client Testimonoal">
+                    <div class="review-text">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
+                      <h3>- Alice</h3>
+                      <h3>CEO Marga Holdings</h3>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-ios-star-half"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 920px;">
+                  <div class="review-single">
+                    <img class="img-circle" src="../assets/img/icon.png" alt="Client Testimonoal">
+                    <div class="review-text">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
+                      <h3>- Robert Hammer</h3>
+                      <h3>Chairman Hammer Corp</h3>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 920px;">
+                  <div class="review-single">
+                    <img class="img-circle" src="../assets/img/icon.png" alt="Client Testimonoal">
+                    <div class="review-text">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
+                      <h3>- Rita Valentine</h3>
+                      <h3>Primal Inc</h3>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-star"></i>
+                      <i class="ion ion-ios-star-half"></i>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div></div><div class="owl-item" style="width: 920px;"><div class="review-single"><img class="img-circle" src="/img/icon.png" alt="Client Testimonoal">
-              <div class="review-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
-                <h3>- Kate Abbot</h3>
-                <h3>President Proton LLC</h3>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-ios-star-half"></i>
-              </div>
-            </div></div><div class="owl-item" style="width: 920px;"><div class="review-single"><img class="img-circle" src="/img/icon.png" alt="Client Testimonoal">
-              <div class="review-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
-                <h3>- Alice</h3>
-                <h3>CEO Marga Holdings</h3>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-ios-star-half"></i>
-              </div>
-            </div></div><div class="owl-item" style="width: 920px;"><div class="review-single"><img class="img-circle" src="/img/icon.png" alt="Client Testimonoal">
-              <div class="review-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
-                <h3>- Robert Hammer</h3>
-                <h3>Chairman Hammer Corp</h3>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-              </div>
-            </div></div><div class="owl-item" style="width: 920px;"><div class="review-single"><img class="img-circle" src="/img/icon.png" alt="Client Testimonoal">
-              <div class="review-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
-                <h3>- Rita Valentine</h3>
-                <h3>Primal Inc</h3>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-star"></i>
-                <i class="ion ion-ios-star-half"></i>
-              </div>
-            </div></div></div></div>
-
-
-
-
+            </div>
           </div>
         </div>
       </div>
@@ -296,7 +328,7 @@
           <div class="col-sm-4">
             <div class="table-left wow fadeInDown" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
               <div class="icon">
-                <img src="/img/pricing1.png" alt="Icon">
+                <img src="../assets/img/pricing1.png" alt="Icon">
               </div>
               <div class="pricing-details">
                 <h2>Freemium Plan</h2>
@@ -314,7 +346,7 @@
           <div class="col-sm-4">
             <div class="table-right table-center wow fadeInDown" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
               <div class="icon">
-                <img src="/img/pricing2.png" alt="Icon">
+                <img src="../assets/img/pricing2.png" alt="Icon">
               </div>
               <div class="pricing-details">
                 <h2>Beginner Plan</h2>
@@ -336,7 +368,7 @@
           <div class="col-sm-4">
             <div class="table-right wow fadeInDown" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
               <div class="icon">
-                <img src="/img/pricing3.png" alt="Icon">
+                <img src="../assets/img/pricing3.png" alt="Icon">
               </div>
               <div class="pricing-details">
                 <h2>Premium Plan</h2>
@@ -354,8 +386,6 @@
         </div>
       </div>
     </div>
-
-
 
     <!-- Subscribe Form -->
     <div class="cta-sub no-color">
