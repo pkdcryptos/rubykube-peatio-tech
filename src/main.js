@@ -6,6 +6,20 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+/* js */
+import 'owl.carousel/dist/owl.carousel.min.js'
+import 'wowjs/dist/wow.min.js'
+import 'counterup/jquery.counterup.min.js'
+import 'jquery-validation/dist/jquery.validate.min.js'
+import 'animsition/dist/js/animsition.min.js'
+import 'smoothscroll/smoothscroll.min.js'
+import 'countdown/countdown.js'
+import 'easingjs/easing-min.js'
+import 'waypoints/lib/jquery.waypoints.min.js'
+import './assets/js/custom.js'
+import './assets/js/menu.js'
+
+/* css */
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/css/custom.css'
 import './assets/css/animate.css'
