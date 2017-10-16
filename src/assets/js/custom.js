@@ -1,4 +1,6 @@
 // Custom Scripts for Primal Template //
+import WOW from 'wow.js'
+
 /*eslint-disable*/
 jQuery(function($) {
     "use strict";
