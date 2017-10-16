@@ -21,6 +21,9 @@ All Contents
    v2.0 | 20110126
    License: none (public domain)
 */
+body, .wrapper, .navbar, .container {
+	max-width: 100%;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -66,6 +69,10 @@ table {
 	border-spacing: 0;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
 
 /* --- Common Styles ---*/
 
@@ -172,13 +179,13 @@ p {
 
 
 .navbar {
-	font-size: 100%;
+	font-size: 1.2rem;
   font-family: Poppins;
 	font-weight: 400;
 	text-transform: capitalize;
 	padding-top: 25px;
 	letter-spacing: 1px;
-	height: 80px;
+	height: 100px !important;
 	-webkit-transition: all 0.6s;
 	-moz-transition: all 0.6s;
 	-o-transition: all 0.6s;
@@ -329,20 +336,23 @@ p {
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #111111;
   }
+
+
 }
+
 
 @media only screen and (min-width: 240px) {
 
 
 .navbar.past-main {
-	font-size: 100%;
-	padding-top: 5px;
-	height: 60px !important;
+	font-size: 1.2rem;
+	padding-top: 23px !important;
+	height: 100px !important;
 	background-color: rgba(255, 255, 255, 0.99);
-	-webkit-transition: all 0.6s;
-	-moz-transition: all 0.6s;
-	-o-transition: all 0.6s;
-	transition: all 0.6s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
 
 .navbar-default.past-main .navbar-brand {
@@ -389,6 +399,9 @@ p {
 	background-color: #111111;
 }
 
+.nav > li > a {
+	padding: 10px 10px !important;
+}
 /* ------------------------------------------------------
 -------------- Main Section Styling Starts --------------
 --------------------------------------------------------*/
@@ -1062,7 +1075,10 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
     filter: grayscale(100%);
 		opacity: 0.3;
 }
-
+ .single img {
+	 height: 3rem;
+	 width: auto;
+ }
 
 /*----------------------------------------------------
 ----------- Pitch Section Styling Starts ----------
@@ -2252,7 +2268,6 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
  	text-align: left;
  }
 
-
   .form .sub-form .formee input {
  	 text-align: center;
     padding: 0 0 0 0;
@@ -2265,11 +2280,10 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
  	 margin-top: 15px;
   }
 
- .back-to-top {
-	right: 10px;
+	.back-to-top {
+		right: 10px;
+	}
 }
-
- }
 
  @media only screen and (min-width: 991px) and (max-width: 1201px) {
 
@@ -2282,6 +2296,12 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	 }
 
  }
+
+ img {
+ 	max-width: 100%;
+ 	height: auto;
+ }
+
 
 
 /*---------------------------------------------------

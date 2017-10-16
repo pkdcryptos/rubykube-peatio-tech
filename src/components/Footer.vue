@@ -2,7 +2,7 @@
   <div class="footer">
     <div class="container">
       <div class="col-md-6">
-        <img class="img-circle" src="assets/logo.png" width="80" height="30" alt="Image">
+        <img src="../assets/img/logo.png" width="50%" height="auto" alt="Image">
         <p>
           A technology startup based somewhere in the world. <br class="hidden-xs"> making the finest bluetooth
           speakers ever made. <br class="hidden-xs"> You'll know our location if you really love us.

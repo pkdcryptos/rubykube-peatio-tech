@@ -15,7 +15,7 @@ jQuery(function($) {
         // we round here to reduce a little workload
         stop = Math.round($(window).scrollTop());
         if (stop > mainbottom) {
-            // $('.navbar').addClass('past-main');
+            $('.navbar').addClass('past-main');
             $('.navbar').addClass('effect-main')
         } else {
             $('.navbar').removeClass('past-main');
