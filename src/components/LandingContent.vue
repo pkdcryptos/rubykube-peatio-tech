@@ -109,13 +109,13 @@
 
     <div class="app-features text-center">
       <div class="container">
-        <h1 class="wow fadeInDown" data-wow-delay="0.1s" style="animation-delay: 0.1s; animation-name: none;">Features and Details</h1>
-        <p class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
+        <h1 class="wow fadeInDown" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: none;">Features and Details</h1>
+        <p class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: none;">
           Tell people some damn good features, specifications or interesting facts about your <br class="hidden-xs"> product or app
           here in this beautiful section.
         </p>
         <div class="col-md-4 features-left">
-          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
+          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: none;">
             <div class="icon">
               <i class="ion-xbox"></i>
             </div>
@@ -126,7 +126,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.3s" style="animation-delay: 0.3s; animation-name: none;">
+          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: none;">
             <div class="icon">
               <i class="ion-steam"></i>
             </div>
@@ -137,7 +137,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.4s" style="animation-delay: 0.4s; animation-name: none;">
+          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: none;">
             <div class="icon">
               <i class="ion-social-instagram-outline"></i>
             </div>
@@ -150,12 +150,12 @@
           </div>
         </div>
 
-        <div class="col-md-4 wow fadeInDown" data-wow-delay="0.5s" style="animation-delay: 0.5s; animation-name: none;">
+        <div class="col-md-4 wow fadeInDown" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: none;">
           <img class="img-responsive" src="../assets/img/iphone.png" alt="App">
         </div>
 
         <div class="col-md-4 features-left">
-          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.6s" style="animation-delay: 0.6s; animation-name: none;">
+          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: none;">
             <div class="icon">
               <i class="ion-social-html5-outline"></i>
             </div>
@@ -166,7 +166,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.7s" style="animation-delay: 0.7s; animation-name: none;">
+          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: none;">
             <div class="icon">
               <i class="ion-social-github"></i>
             </div>
@@ -177,7 +177,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.8s" style="animation-delay: 0.8s; animation-name: none;">
+          <div class="col-md-12 wow fadeInDown" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: none;">
             <div class="icon">
               <i class="ion-social-dropbox"></i>
             </div>
@@ -196,8 +196,8 @@
     <div class="feature-sub">
       <div class="container">
         <div class="sub-inner">
-          <h1 class="wow fadeInDown" data-wow-delay="0.1s" style="animation-delay: 0.1s; animation-name: none;">With A1 when you Play the music you'll feel the rhythm of heavens passing through chimes of your freedom.</h1>
-          <a href="#" class="btn btn-action wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">Buy now</a>
+          <h1 class="wow fadeInDown" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: none;">With A1 when you Play the music you'll feel the rhythm of heavens passing through chimes of your freedom.</h1>
+          <a href="#" class="btn btn-action wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: none;">Buy now</a>
         </div>
       </div>
     </div>
@@ -210,12 +210,12 @@
           </div>
           <div class="col-md-5 col-md-offset-1 nopadding">
             <div class="features-list">
-              <h1 class="wow fadeInDown" data-wow-delay="0.1s" style="animation-delay: 0.1s; animation-name: none;">Cross device compatibility and ease of access</h1>
-              <p class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
+              <h1 class="wow fadeInDown" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: none;">Cross device compatibility and ease of access</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: none;">
                 Private or corporate clients corder a
                 publication to be presented with the actual content still not being ready.
               </p>
-              <ul class="wow fadeInDown" data-wow-delay="0.3s" style="animation-delay: 0.3s; animation-name: none;">
+              <ul class="wow fadeInDown" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: none;">
                 <li>Real-time usage and visitor statistics</li>
                 <li>Zero Delay push messages and notifications.</li>
                 <li>Manage from mobile or desktop workstation hassle free.</li>
@@ -236,7 +236,7 @@
                 <div class="owl-item" style="width: 920px;">
                   <div class="review-single">
                     <img class="img-circle" src="../assets/img/icon.png" alt="Client Testimonoal">
-                    <div class="review-text wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
+                    <div class="review-text wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: none;">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
                       <h3>- Neil Young</h3>
                       <h3>Vice President Primal Inc</h3>
@@ -319,14 +319,14 @@
       <div class="container">
         <div class="col-md-12 col-sm-12 nopadding">
           <div class="pricing-intro">
-            <h1 class="wow fadeInDown" data-wow-delay="0s" style="animation-delay: 0s; animation-name: none;">Our Pricing Plans.</h1>
-            <p class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
+            <h1 class="wow fadeInDown" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: none;">Our Pricing Plans.</h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: none;">
               Our plans are designed to meet the requirements of both beginners <br class="hidden-xs"> and players.
               Get the right plan that suits you.
             </p>
           </div>
           <div class="col-sm-4">
-            <div class="table-left wow fadeInDown" data-wow-delay="0.4s" style="animation-delay: 0.4s; animation-name: none;">
+            <div class="table-left wow fadeInDown" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: none;">
               <div class="icon">
                 <img src="../assets/img/pricing1.png" alt="Icon">
               </div>
@@ -344,7 +344,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="table-right table-center wow fadeInDown" data-wow-delay="0.6s" style="animation-delay: 0.6s; animation-name: none;">
+            <div class="table-right table-center wow fadeInDown" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: none;">
               <div class="icon">
                 <img src="../assets/img/pricing2.png" alt="Icon">
               </div>
@@ -366,7 +366,7 @@
           </div>
 
           <div class="col-sm-4">
-            <div class="table-right wow fadeInDown" data-wow-delay="0.6s" style="animation-delay: 0.6s; animation-name: none;">
+            <div class="table-right wow fadeInDown" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: none;">
               <div class="icon">
                 <img src="../assets/img/pricing3.png" alt="Icon">
               </div>
@@ -391,11 +391,11 @@
     <div class="cta-sub no-color">
       <div class="container">
         <div class="cta-inner">
-          <h1 class="wow fadeInDown" data-wow-delay="0s" style="animation-delay: 0s; animation-name: none;">Love offers and discounts? Subscribe and save.</h1>
-          <p class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
+          <h1 class="wow fadeInDown" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: none;">Love offers and discounts? Subscribe and save.</h1>
+          <p class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: none;">
             Don't worry, we won't need your credit card details. Just enter your <br class="hidden-xs"> email address and we'll take care of the rest.
           </p>
-          <div class="form wow fadeInDown" data-wow-delay="0.3s" style="animation-delay: 0.3s; animation-name: none;">
+          <div class="form wow fadeInDown" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: none;">
             <form id="signup" class="formee" action="#" method="post" novalidate="novalidate">
               <input name="email" id="email" type="text"><input class="right inputnew" type="submit" title="Send" value="Subscribe">
             </form>
