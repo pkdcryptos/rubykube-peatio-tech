@@ -9,8 +9,8 @@
           <div class="hero-content text-center">
             <h1 class="wow fadeInDown" data-wow-delay="0.1s" style="animation-delay: 0.1s; animation-name: fadeInDown;">Peatio [貔貅 P'i-hsiu] Simple and Powerful</h1>
             <p class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: fadeInDown;">
-              Beoplay A1 bluetooth speakers image on the left is owned by Bang and Olufsen and is released under creative
-              <br class="hidden-xs"> commons lisence. So, I downloaded it and displayed it here in my demo.
+              Peatio - Cryptocurrency exchanges solution for managing digital currency.
+              <br class="hidden-xs">Peatio.Tech - Peatio architecture, development, installation, servicing and more.
             </p>
             <a class="btn btn-primary btn-action popup wow fadeInDown" data-wow-delay="0.2s" href="#" style="animation-delay: 0.2s; animation-name: fadeInDown;">Know more</a>
           </div>
@@ -65,7 +65,7 @@
         <div class="pitch-intro">
           <h1 class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">Why Peatio.Tech ?</h1>
           <p class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
-            Peatio.Tech are experts in everything Peatio. From project architecture, development, launch to security, we address all of your Peatio related requirements
+            Peatio.Tech are on a mission to build a more accessible and fair financial future using Peatio. Our technology stack empowers millions across the globe to authenticate and transact immediately and without costly intermediaries.
           </p>
         </div>
         <div class="col-md-12">
@@ -87,7 +87,7 @@
             <div class="pitch-content">
               <h1>Blockchain Framework</h1>
               <p>
-              Peatio.Tech stack is engineered around Peatio. We’ve improved efficiency and workflow functionality to work flawlessly with other tools as a unified component.  Peatio.Tech experienced in platforms including Ethereum, Hyperledger, IPFS and BigchainDB.
+              Peatio.Tech stack is engineered around Peatio. We’ve improved efficiency and functionality to work flawlessly with other tools as unified components. Peatio.Tech team consists of Vue.js, Angular.JS, Heperledger, RubyOnRails, Docker and Kubernetes experts.
               </p>
             </div>
           </div>

@@ -20,6 +20,7 @@
     "ionicons": "^3.0.0",
     "jquery": "^2.1.1",
     "jquery-validation": "^1.17.0",
+    "jquery.easing": "^1.4.1",
     "owl.carousel": "^2.2.0",
     "smoothscroll": "^0.3.0",
     "tether": "^1.2.4",
