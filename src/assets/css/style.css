@@ -22,7 +22,7 @@ All Contents
    License: none (public domain)
 */
 body, .wrapper, .navbar, .container {
-	max-width: 100%;
+	max-width: 100% !important;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -179,17 +179,17 @@ p {
 
 
 .navbar {
-	font-size: 1.2rem;
+	font-size: 1.1rem;
   font-family: Poppins;
 	font-weight: 400;
 	text-transform: capitalize;
-	padding-top: 25px;
+	padding-top: 1.5rem;
 	letter-spacing: 1px;
-	height: 100px !important;
-	-webkit-transition: all 0.6s;
-	-moz-transition: all 0.6s;
-	-o-transition: all 0.6s;
-	transition: all 0.6s;
+	height: 80px !important;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -345,9 +345,9 @@ p {
 
 
 .navbar.past-main {
-	font-size: 1.2rem;
-	padding-top: 23px !important;
-	height: 100px !important;
+	font-size: 1.1rem;
+	padding-top: 0.5rem !important;
+	height: 60px !important;
 	background-color: rgba(255, 255, 255, 0.99);
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2;

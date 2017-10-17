@@ -22,7 +22,7 @@
           <p>
             Contact our 24/7 customer support if you have any <br class="hidden-xs"> questions. We'll help you out.
           </p>
-          <a href="mailto:support@gmail.com">support@gmail.com</a>
+          <a href="mailto:hello@peatio.tech">hello@peatio.tech</a>
         </div>
       </div>
 

@@ -11,7 +11,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand page-scroll" href="#main">
-            <img src="../assets/img/logo.png" width="50%" height="auto" alt="Logo">
+            <img src="../assets/img/logo.png" width="25%" height="auto" alt="Logo">
           </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,7 +19,7 @@
           <ul class="nav navbar-nav">
             <li><a class="page-scroll" href="#main">Product</a></li>
             <li><a class="page-scroll" href="#features">Features</a></li>
-            <!--<li><a class="page-scroll" href="#review-section">Reviews</a></li>-->
+            <li><a class="page-scroll" href="#review-section">Reviews</a></li>
             <li><a class="page-scroll" href="#pricing">Pricing</a></li>
             <li><a class="page-scroll" href="#contact">Contact</a></li>
           </ul>
