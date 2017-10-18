@@ -173,13 +173,10 @@ p {
 	color: #FFF;
 }
 
-
-
 /* ------ Navbar Styling Starts ----- */
 
-
 .navbar {
-	font-size: 1.1rem;
+	font-size: 0.9rem;
   font-family: Poppins;
 	font-weight: 400;
 	text-transform: capitalize;
@@ -345,7 +342,7 @@ p {
 
 
 .navbar.past-main {
-	font-size: 1.1rem;
+	font-size: 0.9rem;
 	padding-top: 0.5rem !important;
 	height: 60px !important;
 	background-color: rgba(255, 255, 255, 0.99);
