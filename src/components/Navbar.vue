@@ -15,7 +15,7 @@
           </button>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+        <div class="collapse navbar-collapse navbar-right index-nav" id="navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a class="page-scroll" href="#services">Services</a></li>
             <li><a class="page-scroll" href="#features">Features</a></li>
@@ -30,7 +30,14 @@
 </template>
 
 <script>
+import $ from 'jquery'
 export default {
-  name: 'navbar'
+  name: 'navbar',
+  /*eslint-disable*/
+  mounted: function () {
+    $('body').scrollspy({
+      target: '.index-nav'
+    })
+  }
 }
 </script>
