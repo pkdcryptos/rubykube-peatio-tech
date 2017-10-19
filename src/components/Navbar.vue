@@ -5,7 +5,7 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
           <a class="navbar-brand page-scroll" href="#main">
-            <img src="../assets/img/logo.png" alt="Logo">
+            <img src="../assets/img/peatio-logo.png" alt="Logo">
           </a>
           <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
