@@ -10,7 +10,7 @@
         </p>
 
         <div class="footer-text">
-          <p>
+          <p style="color: #828282">
             Helios Technologies SAS<br />
             14 rue de Mantes,<br />
             92 700 - Colombes<br />
@@ -19,7 +19,7 @@
         </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-6 tags">
         <div id="contact" class="contact text-center">
           <i class="ion-ios-chatboxes-outline"></i>
           <h1>Need Help with Peatio ?</h1>

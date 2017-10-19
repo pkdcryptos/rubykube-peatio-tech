@@ -8,7 +8,7 @@ import 'bootstrap'
 Vue.config.productionTip = false
 
 /* js */
-import 'owl.carousel/dist/owl.carousel.min.js'
+import 'owlcarousel-pre/owl-carousel/owl.carousel.min.js'
 import 'wowjs/dist/wow.min.js'
 import 'counterup/jquery.counterup.min.js'
 import 'jquery-validation/dist/jquery.validate.min.js'
@@ -25,8 +25,8 @@ import 'font-awesome/css/font-awesome.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/css/custom.css'
 import './assets/css/animate.css'
-import 'owl.carousel/dist/assets/owl.carousel.min.css'
-import 'owl.carousel/dist/assets/owl.theme.default.min.css'
+import 'owlcarousel-pre/owl-carousel/owl.carousel.css'
+// import 'owl.carousel/dist/assets/owl.theme.default.min.css'
 import 'ionicons/dist/css/ionicons.min.css'
 import './assets/css/style.css'
 
