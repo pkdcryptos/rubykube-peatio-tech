@@ -27,6 +27,7 @@
     "smoothscroll": "^0.3.0",
     "tether": "^1.2.4",
     "vue": "^2.4.2",
+    "vue-analytics": "^5.1.1",
     "vue-router": "^2.7.0",
     "waypoints": "^4.0.1",
     "wow.js": "^1.2.2",
