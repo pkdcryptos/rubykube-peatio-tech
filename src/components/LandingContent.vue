@@ -1,5 +1,5 @@
 <template>
-  <div id="services" class="main software">
+  <div class="main software">
     <div class="hero-section">
       <div class="container no-override">
         <div  id="main"  class="col-md-12">
@@ -42,7 +42,7 @@
       </div>
     </div>
 
-    <div class="pitch text-center">
+    <div id="services" class="pitch text-center">
       <div class="container">
         <div class="pitch-intro">
           <h1 class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">Why Peatio.tech ?</h1>
