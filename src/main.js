@@ -31,6 +31,20 @@ import 'owlcarousel-pre/owl-carousel/owl.carousel.css'
 import 'ionicons/dist/css/ionicons.min.css'
 import './assets/css/style.css'
 
+import Header from '@/components/Header'
+import Client from '@/components/Client'
+import Tech from '@/components/Tech'
+import Features from '@/components/Features'
+import Platform from '@/components/Platform'
+import Pricing from '@/components/Pricing'
+
+Vue.component('Header', Header)
+Vue.component('Client', Client)
+Vue.component('Tech', Tech)
+Vue.component('Features', Features)
+Vue.component('Platform', Platform)
+Vue.component('Pricing', Pricing)
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
