@@ -4,9 +4,9 @@
       <div class="col-md-6">
         <img src="../assets/img/peatio-logo.png" width="50%" height="auto" alt="Image">
         <p>
-          Helios Technologies based in Paris, France. Specialized in<br class="hidden-xs">
-          Micro-Service Architecture and Blockchain systems. <br class="hidden-xs">
-          We love #kubernetes <strong>#ci #devops #blockchain</strong>
+          Peatio.tech is a Helios Technologies SAS Company. <br class="hidden-xs">
+          Helios specializes in Micro-Service Architecture and Blockchain <br class="hidden-xs">
+          systems. We love #kubernetes #ci #devops #blockchain
         </p>
 
         <div class="footer-text">
@@ -24,7 +24,7 @@
           <i class="ion-ios-chatboxes-outline"></i>
           <h1>Need Help with Peatio ?</h1>
           <p>
-            Contact us anytime if you have any <br class="hidden-xs"> questions. We'll help you out.
+            Contact us any time for Peatio related <br class="hidden-xs"> questions. We look forward to hearing from you!
           </p>
           <a href="mailto:hello@peatio.tech">hello@peatio.tech</a>
         </div>

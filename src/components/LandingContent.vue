@@ -242,6 +242,30 @@
     <div id="platform" class="features space">
       <div class="container">
         <div class="features-inner">
+          <div class="col-md-5 col-md-offset-1 nopadding">
+            <div class="features-list">
+              <h1 class="wow fadeInDown" data-wow-delay="0.1s" style="animation-delay: 0.1s; animation-name: none;">High performance cluster</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
+                Peatio.tech deploys Peatio exclusively using containers and kubernetes. This configuration enables great stability and scalability
+              </p>
+              <p class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
+                Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.
+              </p>
+              <p class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
+                Peatio.Tech is a team of Dev/Ops developers specializing in containers, continuous build and deployments.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img class="img-responsive wow fadeInDown" data-wow-delay="0.2s" src="../assets/img/cluster.png" alt="Features" style="animation-delay: 0.2s; animation-name: none;">
+        </div>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="container">
+        <div class="features-inner">
           <div class="col-md-6">
             <img class="img-responsive wow fadeInDown" data-wow-delay="0.2s" src="../assets/img/devices.png" alt="Features" style="animation-delay: 0.2s; animation-name: none;">
           </div>
@@ -263,29 +287,6 @@
       </div>
     </div>
 
-    <div class="features">
-      <div class="container">
-        <div class="features-inner">
-          <div class="col-md-5 col-md-offset-1 nopadding">
-            <div class="features-list">
-              <h1 class="wow fadeInDown" data-wow-delay="0.1s" style="animation-delay: 0.1s; animation-name: none;">High performance cluster</h1>
-              <p class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
-                We are deploying Peatio exclusively using containers and kubernetes, which enable great stability and scalability
-              </p>
-              <p class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
-                Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.
-              </p>
-              <p class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
-                Helios is a team of Dev/Ops specialized in container continuous build and deployments.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-        <img class="img-responsive wow fadeInDown" data-wow-delay="0.2s" src="../assets/img/cluster.png" alt="Features" style="animation-delay: 0.2s; animation-name: none;">
-        </div>
-      </div>
-    </div>
 <!--
     <div id="review-section" class="review-section">
       <div class="container">
@@ -414,7 +415,7 @@
               </div>
               <div class="pricing-details">
                 <h2>Peatio on your Cloud</h2>
-                <span>From €1900 / Month</span>
+                <span>From €1900 / year</span>
                 <ul>
                   <li>We deploy on AWS or GCP</li>
                   <li>Configuration as Code</li>
@@ -459,11 +460,11 @@
             Start your Peatio Cloud
           </h1>
           <p class="wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
-            Don't worry, we won't need your credit card details. Just enter your <br class="hidden-xs"> email address and you will receive a Peatio demo link.
+            Please submit your email to receive your Peatio.tech demo link.
           </p>
           <div class="form wow fadeInDown" data-wow-delay="0.3s" style="animation-delay: 0.3s; animation-name: none;">
             <form id="signup" class="formee" action="#" method="post" novalidate="novalidate">
-              <input name="email" id="email" type="text"><input class="right inputnew" type="submit" title="Send" value="Start now">
+              <input name="email" id="email" type="text"><input class="right inputnew" type="submit" title="Send" value="Submit">
             </form>
             <div id="response"></div>
           </div>
