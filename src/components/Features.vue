@@ -18,7 +18,7 @@
           <i class="ion-social-dropbox"></i>
         </div>
         <div class="feature-single">
-          <h1>Transparent & Configurable</h1>
+          <h1>Transparent &amp; Configurable</h1>
           <p>
             Peatio is a true open source technology making it secure, transparent, flexible and highly configurable.
           </p>
@@ -91,7 +91,7 @@
           <i class="ion-social-html5-outline"></i>
         </div>
         <div class="feature-single">
-          <h1>Functional & Intuitive</h1>
+          <h1>Functional &amp; Intuitive</h1>
           <p>
             Clean, user friendly registration and login interface. Personalized deposit and withdraw procedure and a built-in proof-of-solvency audit.
           </p>

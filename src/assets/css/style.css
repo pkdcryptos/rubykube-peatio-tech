@@ -379,18 +379,17 @@ p {
 
 .navbar-default.past-main .navbar-nav > .active > a {
   background: transparent;
-  color: #5924EC;
+  color: #567;
   }
 
-
 .navbar-default.past-main .navbar-nav > .active > a:hover {
-    background: transparent;
-    color: #222222;
+  background: transparent;
+  color: #222222;
 }
 
 .navbar-default.past-main .navbar-nav > .active > a:focus {
 	background: transparent;
-  color: #222222;
+  color: #567;
 }
 
 }
@@ -537,9 +536,9 @@ font-family: Arial;
 .software .btn-action:active, .software .btn-action:active:focus {
  background: transparent;
  outline: none;
- color: #3f51b5;
+ color: #212f3e;
  background: transparent;
- border-color: #3f51b5;
+ border-color: #212f3e;
 }
 
 .software .hero-section img {
@@ -1138,7 +1137,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .pitch-icon {
 	margin: 0 0 10px 0;
-	background: #3333CC;
+	background: #212f3e;
 	width: 60px;
 	height: 60px;
 	display: inline-block;
@@ -1344,14 +1343,14 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .feature-sub .sub-inner .btn-action {
 	color: #FFFFFF;
-	background: #3333CC;
-	border-color: #3333CC;
+	background: #212f3e;
+	border-color: #212f3e;
 }
 
 .feature-sub .sub-inner .btn-action:hover {
-	color: #3333CC;
+	color: #212f3e;
 	background: transparent;
-	border-color: #3333CC;
+	border-color: #212f3e;
 }
 
 .product .feature-sub .sub-inner .btn-action {
@@ -1380,7 +1379,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 
 .software .feature-sub {
-	background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.70)), url(../img/montain-peatio.jpg);
+	background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.55)), url(../img/montain-peatio.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1782,7 +1781,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .cta-sub {
 	padding-top: 150px;
 	padding-bottom: 250px;
-	background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(../img/paris-helios.jpg) no-repeat center center;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../img/paris-helios.jpg) no-repeat center center;
 	background-size: cover;
   background-position: top;
 }
@@ -1910,7 +1909,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
   border-radius: 0 5px 5px 0;
   margin: 0;
   padding: 0 25px 1px 25px;
-  background-color: #3333CC;
+  background-color: #212f3e;
   color: #FFFFFF;
 	box-shadow: 0 0 1px transparent;
   outline: none;
@@ -1973,7 +1972,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-family: 'Josefin Sans';
 	font-size: 21px;
 	font-weight: 400;
-	color: #3333CC;
+	color: #212f3e;
 	margin: 10px 0 10px 0;
 }
 
@@ -1990,7 +1989,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-family: 'Josefin Sans';
 	font-size: 18px;
 	font-weight: 400;
-	color: #3333CC;
+	color: #212f3e;
 	text-decoration: none;
 	display: inline-block;
 }

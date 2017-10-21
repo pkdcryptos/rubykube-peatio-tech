@@ -49,7 +49,7 @@
           <i class="fa fa-line-chart"></i>
         </div>
         <div class="pitch-content">
-          <h1>Consulting & Planning</h1>
+          <h1>Consulting &amp; Planning</h1>
           <p>
             Peatio.tech provides a turn-key solution to blockchain related projects. From concept to product development, our team is experienced in building secure and reliable blockchain applications. Contact us. We look forward to hearing from you!
           </p>
