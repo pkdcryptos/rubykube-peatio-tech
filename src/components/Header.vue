@@ -5,7 +5,7 @@
     </div>
     <div class="col-md-12">
       <div class="hero-content text-center">
-        <h1 class="wow fadeInDown" data-wow-delay="0.1s" style="animation-delay: 0.1s; animation-name: fadeInDown;">Peatio [貔貅] Open-Source Exchange</h1>
+        <h1 class="wow fadeInDown" data-wow-delay="0.1s" style="animation-delay: 0.1s; animation-name: fadeInDown;">Peatio [&#35988;&#35973;] Open-Source Exchange</h1>
         <h2 class="wow fadeInDown" data-wow-delay="0.5s" style="animation-delay: 0.5s; animation-name: fadeInDown;">Cloud deployment made simple and secure</h2>
         <p class="wow fadeInDown" data-wow-delay="1.0s" style="animation-delay: 1.0s; animation-name: fadeInDown;">
           Peatio - Cryptocurrency exchange for managing digital currency.

@@ -1130,8 +1130,8 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-family: 'Quicksand';
 	font-size: 14px;
 	line-height: 1.5;
-	color: #828282;
-	font-weight: 700;
+	color: #303030;
+	font-weight: 500;
 	letter-spacing: 0;
 }
 
@@ -1171,8 +1171,8 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-family: 'Quicksand';
 	font-size: 14px;
 	line-height: 1.5;
-	font-weight: 700;
-	color: #828282;
+	font-weight: 500;
+	color: #303030;
 	letter-spacing: 0;
 }
 
@@ -1296,10 +1296,10 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .software .features-list p {
 	margin: 0 0 25px 0;
 	font-family: 'Quicksand';
-	font-weight: 700;
-	font-size: 16px;
+	font-weight: 500;
+	font-size: 15px;
 	line-height: 1.2;
-	color: #828282;
+	color: #303030;
 }
 
 .software .features .features-list ul {
@@ -1408,6 +1408,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .app-features h1 {
 	font-size: 34px;
 	font-weight: 600;
+	font-family: Quicksand;
 	margin: 0 0 10px 0;
 }
 
@@ -1456,9 +1457,9 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app-features .feature-single p {
 	font-family: Quicksand;
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 14px;
-	color: #828282;
+	color: #303030;
 	line-height: 1.4;
 	margin: 10px 0 0 0;
 }
@@ -1677,7 +1678,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .table-left .pricing-details span, .table-right .pricing-details span {
 	display: inline-block;
-	font-family: Poppins;
+	font-family: Quicksand;
 	font-size: 28px;
 	font-weight: 400;
 	color: #808080;
@@ -1687,12 +1688,13 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .table-left .pricing-details h2, .table-right .pricing-details h2 {
 	font-size: 18px;
 	font-weight: 600;
+	font-family: Quicksand;
 	color: #505050;
 	margin-bottom: 30px;
 }
 
 .table-left .pricing-details p, .table-right .pricing-details p {
-	font-family: Poppins;
+	font-family: Quicksand;
 	font-size: 14px;
 	font-weight: 300;
 	color: #505050;
@@ -1793,6 +1795,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .cta-sub .cta-inner h1 {
 	font-size: 28px;
+	font-family: Quicksand;
 	color: #FFFFFF;
 	font-weight: 400;
 	line-height: 1.2;
@@ -1801,7 +1804,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .cta-sub .cta-inner p {
-	font-family: Poppins;
+	font-family: Quicksand;
 	font-size: 14px;
 	color: #FFFFFF;
 	font-weight: 300;
@@ -2210,6 +2213,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 	.software .feature-sub .sub-inner h1 {
 		font-size: 42px;
+		font-family: Quicksand;
 	}
 
 	.split-content {
@@ -2231,6 +2235,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	}
 
 	.cta-sub .cta-inner h1 {
+		font-family: Quicksand;
 		font-size: 36px;
 	}
 

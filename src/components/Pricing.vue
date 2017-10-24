@@ -13,11 +13,11 @@
       <div class="col-sm-4">
         <div class="table-left wow fadeInDown" data-wow-delay="0.4s" style="animation-delay: 0.4s; animation-name: none;">
           <div class="icon">
-            <img src="../assets/img/pricing1.png" alt="Icon">
+            <img src="../assets/img/cloud.png" alt="Icon">
           </div>
           <div class="pricing-details">
             <h2>Peatio Cloud</h2>
-            <span>From €490 / Month</span>
+            <span>from €490 / month</span>
             <ul>
               <li>Dedicated cluster</li>
               <li>Very fast provisioning</li>
@@ -33,11 +33,11 @@
       <div class="col-sm-4">
         <div class="table-right table-center wow fadeInDown" data-wow-delay="0.6s" style="animation-delay: 0.6s; animation-name: none;">
           <div class="icon">
-            <img src="../assets/img/pricing2.png" alt="Icon">
+            <img src="../assets/img/peatio_cloud.jpg" alt="Icon">
           </div>
           <div class="pricing-details">
             <h2>Peatio on your Cloud</h2>
-            <span>From €1900 / year</span>
+            <span>from €1900 / year</span>
             <ul>
               <li>We deploy on AWS or GCP</li>
               <li>Configuration as Code</li>
@@ -46,7 +46,7 @@
               <li>Setting Access Control</li>
               <li>Manage your costs</li>
             </ul>
-            <button class="btn btn-primary btn-action btn-fill">Order Now</button>
+            <button class="btn btn-primary btn-action btn-fill">Start now</button>
           </div>
         </div>
       </div>
@@ -54,11 +54,11 @@
       <div class="col-sm-4">
         <div class="table-right wow fadeInDown" data-wow-delay="0.6s" style="animation-delay: 0.6s; animation-name: none;">
           <div class="icon">
-            <img src="../assets/img/pricing3.png" alt="Icon">
+            <img src="../assets/img/development.svg" alt="Icon">
           </div>
           <div class="pricing-details">
             <h2>Custom Development</h2>
-            <span>From €150 / day</span>
+            <span>from €150 / day</span>
             <ul>
               <li>Dedicated professional</li>
               <li>Great Peatio Exprience</li>
@@ -66,7 +66,7 @@
               <li>Extending business rules</li>
               <li>Develop your blockchain</li>
             </ul>
-            <button class="btn btn-primary btn-action btn-fill">Contact us</button>
+            <button class="btn btn-primary btn-action btn-fill">Start now</button>
           </div>
         </div>
       </div>
