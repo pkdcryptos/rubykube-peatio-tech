@@ -17,14 +17,16 @@
           </div>
           <div class="pricing-details">
             <h2>Peatio Cloud</h2>
-            <span>from €490 / month</span>
-            <ul>
-              <li>Dedicated cluster</li>
-              <li>Very fast provisioning</li>
-              <li>Starting with 3 servers</li>
-              <li>Ability to customize front-end</li>
-              <li>Choose popular currencies</li>
-            </ul>
+            <span>From €490 / Month</span>
+            <div class="pricing-list">
+              <ul>
+                <li>&bull; Dedicated cluster</li>
+                <li>&bull; Very fast provisioning</li>
+                <li>&bull; Starting with 3 servers</li>
+                <li>&bull; Ability to customize front-end</li>
+                <li>&bull; Choose popular currencies</li>
+              </ul>
+            </div>
             <button class="btn btn-primary btn-action btn-fill">Start now</button>
           </div>
         </div>
@@ -37,16 +39,18 @@
           </div>
           <div class="pricing-details">
             <h2>Peatio on your Cloud</h2>
-            <span>from €1900 / year</span>
-            <ul>
-              <li>We deploy on AWS or GCP</li>
-              <li>Configuration as Code</li>
-              <li>Ability to define size</li>
-              <li>Custom Service integration</li>
-              <li>Setting Access Control</li>
-              <li>Manage your costs</li>
-            </ul>
-            <button class="btn btn-primary btn-action btn-fill">Start now</button>
+            <span>From €1900 / year</span>
+            <div class="pricing-list">
+              <ul>
+                <li>&bull; We deploy on AWS or GCP</li>
+                <li>&bull; Configuration as Code</li>
+                <li>&bull; Ability to define size</li>
+                <li>&bull; Custom Service integration</li>
+                <li>&bull; Setting Access Control</li>
+                <li>&bull; Manage your costs</li>
+              </ul>
+            </div>
+            <button class="btn btn-primary btn-action btn-fill">Order Now</button>
           </div>
         </div>
       </div>
@@ -58,15 +62,17 @@
           </div>
           <div class="pricing-details">
             <h2>Custom Development</h2>
-            <span>from €150 / day</span>
-            <ul>
-              <li>Dedicated professional</li>
-              <li>Great Peatio Exprience</li>
-              <li>Adding new currencies</li>
-              <li>Extending business rules</li>
-              <li>Develop your blockchain</li>
-            </ul>
-            <button class="btn btn-primary btn-action btn-fill">Start now</button>
+            <span>From €150 / day</span>
+            <div class="pricing-list">
+              <ul>
+                <li>&bull; Dedicated professional</li>
+                <li>&bull; Great Peatio Exprience</li>
+                <li>&bull; Adding new currencies</li>
+                <li>&bull; Extending business rules</li>
+                <li>&bull; Develop your blockchain</li>
+              </ul>
+          </div>
+            <button class="btn btn-primary btn-action btn-fill">Contact us</button>
           </div>
         </div>
       </div>

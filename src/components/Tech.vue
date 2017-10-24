@@ -32,7 +32,7 @@
     </div>
     <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s" style="animation-delay: 0.2s; animation-name: none;">
       <div class="pitch-icon">
-        <i class="fa fa-university"></i>
+        <i id="univ" class="fa fa-university"></i>
       </div>
       <div class="pitch-content">
         <h1>Enterprise Ready</h1>

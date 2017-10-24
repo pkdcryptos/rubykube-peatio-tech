@@ -1153,6 +1153,10 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	top: 13px;
 }
 
+#univ {
+	left: 4px;
+}
+
 .pitch-content {
 	padding: 10px 0 50px 0;
 }
@@ -1654,6 +1658,11 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	letter-spacing: 1px;
 	margin-top: 10px;
 	margin-bottom: 50px;
+}
+
+.pricing-list {
+	text-align: left;
+	margin: 60px;
 }
 
 .pricing-section .table-left, .pricing-section .table-right {
