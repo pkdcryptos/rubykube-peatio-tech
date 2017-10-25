@@ -27,7 +27,7 @@
                 <li>&bull; Choose popular currencies</li>
               </ul>
             </div>
-            <button class="btn btn-primary btn-action btn-fill">Start now</button>
+            <a class="btn btn-primary btn-action btn-fill page-scroll" data-wow-delay="0.2s" href="#contact" style="animation-delay: 0.2s; animation-name: fadeInDown;">Contact us</a>
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@
                 <li>&bull; Manage your costs</li>
               </ul>
             </div>
-            <button class="btn btn-primary btn-action btn-fill">Order Now</button>
+            <a class="btn btn-primary btn-action btn-fill page-scroll" data-wow-delay="0.2s" href="#contact" style="animation-delay: 0.2s; animation-name: fadeInDown;">Contact us</a>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@
                 <li>&bull; Develop your blockchain</li>
               </ul>
           </div>
-            <button class="btn btn-primary btn-action btn-fill">Contact us</button>
+            <a class="btn btn-primary btn-action btn-fill page-scroll" data-wow-delay="0.2s" href="#contact" style="animation-delay: 0.2s; animation-name: fadeInDown;">Contact us</a>
           </div>
         </div>
       </div>
