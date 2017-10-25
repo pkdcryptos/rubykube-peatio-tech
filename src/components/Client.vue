@@ -14,6 +14,9 @@
         <img src="../assets/img/ripple.png" alt="Image">
       </div>
       <div class="single">
+        <img src="../assets/img/kayen-logo.png" alt="Image">
+      </div>
+      <div class="single">
         <img src="../assets/img/litecoin.png" alt="Image">
       </div>
       <div class="single">

@@ -42,7 +42,7 @@
         <div class="feature-single">
           <h1>Enterprise Exchange</h1>
           <p>
-            Peatio enterprise exchange features include a high-performance matching engine, scalable distributed worker threads, and SMS 2-factor authentication
+            Peatio enterprise exchange features include a high-performance matching engine, scalable distributed worker threads, and SMS 2-factor authentication.
           </p>
         </div>
       </div>

@@ -60,7 +60,7 @@
           <i class="fa fa-users"></i>
         </div>
         <div class="pitch-content">
-          <h1>Blockchain Professional</h1>
+          <h1>Blockchain Professionals</h1>
           <p>
             Peatio.tech are experienced in working with different blockchains, including Bitcoin Blockchain, Ethereum, Hyperledger, Ripple and Exonum. Experienced in blockchain development API’s, databases, software frameworks, testing, storage and security.
           </p>
