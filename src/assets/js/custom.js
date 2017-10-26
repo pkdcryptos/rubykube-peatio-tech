@@ -141,9 +141,16 @@ $(document).ready(function() {
   $("#signup").validate({
     // if valid, post data via AJAX
     submitHandler: function(form) {
-      $.post("assets/php/subscribe.php", { email: $("#email").val() }, function(data) {
-        $('#response').html(data);
-      });
+      console.log('qqqqqqqq')
+      $.ajax({
+        url: 'http://peatio.tech/subscribers',
+        contentType: 'application/json',
+        type: 'POST',
+        data: JSON.stringify({ email: $("#email").val() })
+      }).done(function() { alert('Success!') });
+      // $.post("assets/php/subscribe.php", { email: $("#email").val() }, function(data) {
+        // $('#response').html(data);
+      // });
     },
     // all fields are required
     rules: {

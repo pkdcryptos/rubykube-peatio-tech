@@ -11,12 +11,16 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "@sendgrid/mail": "^6.1.4",
     "animate.css": "^3.5.2",
     "animsition": "^4.0.2",
+    "body-parser": "^1.18.2",
     "bootstrap": "^3.3.6",
+    "cors": "^2.8.4",
     "countdown": "^2.6.0",
     "counterup": "^1.0.2",
     "easingjs": "^1.0.1",
+    "email-validator": "^1.1.1",
     "font-awesome": "^4.7.0",
     "html-loader": "^0.5.1",
     "ionicons": "^3.0.0",
