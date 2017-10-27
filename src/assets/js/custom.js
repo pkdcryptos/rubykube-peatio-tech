@@ -136,30 +136,4 @@ if($.find('#countdown')[0]) {
 
 /*----- Subscription Form ----- */
 
-$(document).ready(function() {
-  // jQuery Validation
-  $("#signup").validate({
-    // if valid, post data via AJAX
-    submitHandler: function(form) {
-      console.log('qqqqqqqq')
-      $.ajax({
-        url: 'http://peatio.tech/subscribers',
-        contentType: 'application/json',
-        type: 'POST',
-        data: JSON.stringify({ email: $("#email").val() })
-      }).done(function() { alert('Success!') });
-      // $.post("assets/php/subscribe.php", { email: $("#email").val() }, function(data) {
-        // $('#response').html(data);
-      // });
-    },
-    // all fields are required
-    rules: {
-      email: {
-        required: true,
-        email: true
-      }
-    }
-  });
-});
-
 });

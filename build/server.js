@@ -23,7 +23,7 @@ app.post('/subscribers', cors(), function(req, res, next) {
     sgMail.send({
       to:      'hello@peatio.tech',
       from:    'Peatio@tech',
-      subject: 'New subscriber',
+      subject: 'New contact request',
       text:    req.body.email
     });
     res.status(201).send();

@@ -23,7 +23,7 @@
                 <li>&bull; Dedicated cluster</li>
                 <li>&bull; Very fast provisioning</li>
                 <li>&bull; Starting with 3 servers</li>
-                <li>&bull; Ability to customize front-end</li>
+                <li>&bull; Front-End customization</li>
                 <li>&bull; Choose popular currencies</li>
               </ul>
             </div>
@@ -45,7 +45,7 @@
                 <li>&bull; We deploy on AWS or GCP</li>
                 <li>&bull; Configuration as Code</li>
                 <li>&bull; Ability to define size</li>
-                <li>&bull; Custom Service integration</li>
+                <li>&bull; Service integration</li>
                 <li>&bull; Setting Access Control</li>
                 <li>&bull; Manage your costs</li>
               </ul>
@@ -66,7 +66,7 @@
             <div class="pricing-list">
               <ul>
                 <li>&bull; Dedicated professional</li>
-                <li>&bull; Great Peatio Exprience</li>
+                <li>&bull; Experienced in Peatio</li>
                 <li>&bull; Adding new currencies</li>
                 <li>&bull; Extending business rules</li>
                 <li>&bull; Develop your blockchain</li>
