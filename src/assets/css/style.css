@@ -1802,6 +1802,19 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	float: none;
 }
 
+.error-message {
+	margin-top: 40px;
+	width: 210px;
+	border: 0;
+	color: white;
+	background-color: #ff7777;
+	font-family: Quicksand;
+}
+
+.small-text {
+	font-size: 28px;
+}
+
 .cta-sub .cta-inner h1 {
 	font-size: 28px;
 	font-family: Quicksand;
