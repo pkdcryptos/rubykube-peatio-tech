@@ -42,6 +42,7 @@ export default {
         n.setAttribute('data-widget-id','b3d49755-40f4-4079-5992-a5bf40d5defb');
         c.parentNode.insertBefore(n,c);
         _chatlio.hide();
+        setTimeout('_chatlio.show({expanded: true})', 20000);
      }();
    },
  }
