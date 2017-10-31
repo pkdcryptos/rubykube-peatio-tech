@@ -1,0 +1,23 @@
+# Check `docs/pipeline.md` to get info about this file
+
+resources:
+- name: peatio-tech-repository
+  type: git
+  source:
+    uri: git@github.com:rubykube/peatio-tech.git
+    branch: master
+
+- name: peatio-tech-image
+  type: docker-image
+  source:
+    repository: gcr.io/hc-public/peatio-tech
+
+jobs:
+- name: build peatio-tech image
+  serial: true
+  plan:
+  - get: peatio-tech-repository
+    trigger: true
+  - put: peatio-tech-image
+    params:
+      build: peatio-tech-repository
