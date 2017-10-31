@@ -29,6 +29,12 @@ spec:
             httpGet:
               path: /
               port: {{ .Values.service.internalPort }}
+          env:
+            - name: SENDGRID_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: peatio-tech-secret
+                  key: sendgrid-api-key
           resources:
 {{ toYaml .Values.resources | indent 12 }}
     {{- if .Values.nodeSelector }}

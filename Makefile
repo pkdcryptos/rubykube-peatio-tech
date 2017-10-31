@@ -1,7 +1,7 @@
 VERSION := $(shell cat VERSION)
 IMAGE   := gcr.io/hc-public/peatio-tech:$(VERSION)
 
-.PHONY: default build push run ci deploy
+.PHONY: default build push run ci deploy secret
 
 default: build run
 
@@ -22,3 +22,6 @@ ci:
 
 deploy: push
 	@helm install ./config/charts/peatio-tech --set "image.tag=$(VERSION)"
+
+secret:
+	@kubectl create -n peatio-tech secret generic peatio-tech-secret --from-literal=sendgrid-api-key=$(SENDGRID_API_KEY)
