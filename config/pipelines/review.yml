@@ -1,23 +1,91 @@
 # Check `docs/pipeline.md` to get info about this file
+resource_types:
+  - name: pull-request
+    type: docker-image
+    source:
+      repository: jtarchie/pr
 
 resources:
-- name: peatio-tech-repository
-  type: git
-  source:
-    uri: git@github.com:rubykube/peatio-tech.git
-    branch: master
+  - name: peatio-tech-repository
+    type: git
+    source:
+      uri: https://github.com/rubykube/peatio-tech.git
+      branch: master
 
-- name: peatio-tech-image
-  type: docker-image
-  source:
-    repository: gcr.io/hc-public/peatio-tech
+  - name: pull-requests
+    type: pull-request
+    source:
+      access_token: ((github_token))
+      base: master
+      repo: rubykube/peatio-tech
+
+  - name: peatio-tech-image
+    type: docker-image
+    source:
+      repository: gcr.io/helios-devel/peatio-tech
+      username: _json_key
+      password: ((gcr_password))
 
 jobs:
-- name: build peatio-tech image
-  serial: true
-  plan:
-  - get: peatio-tech-repository
-    trigger: true
-  - put: peatio-tech-image
-    params:
-      build: peatio-tech-repository
+  - name: build-pull-request
+    plan:
+      - get: pull-requests
+        trigger: true
+      - task: tag
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: alpine
+          run:
+            path: sh
+            args: ['-c', 'echo test > tag/name']
+          outputs:
+            - name: tag
+      - put: peatio-tech-image
+        params:
+          build: pull-requests
+          tag: tag/name
+
+  - name: build-master
+    serial: true
+    plan:
+      - get: peatio-tech-repository
+        trigger: true
+      - put: peatio-tech-image
+        params:
+          build: peatio-tech-repository
+
+  - name: test-pull-request
+    plan:
+      - get: pull-requests
+        passed:
+          - build-pull-request
+        trigger: true
+      - task: run-tests
+        privileged: true
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: gcr.io/helios-devel/peatio-tech
+              tag: test
+              username: _json_key
+              password: ((gcr_password))
+          run:
+            path: bash
+            args: ["-c", "pushd /pull-requests && npm test"]
+          inputs:
+            - name: pull-requests
+        on_failure:
+          put: pull-requests
+          params:
+            path: pull-requests
+            status: failure
+        on_success:
+          put: pull-requests
+          params:
+            path: pull-requests
+            status: success
