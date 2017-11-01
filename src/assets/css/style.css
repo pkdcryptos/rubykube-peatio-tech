@@ -1714,6 +1714,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .table-left .pricing-details ul, .table-right .pricing-details ul {
 	margin-top: 30px;
 	margin-bottom: 50px;
+	width: 210
 }
 
 
