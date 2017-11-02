@@ -1,0 +1,11 @@
+---
+platform: linux
+image_resource:
+  type: docker-image
+  source:
+    repository: gcr.io/hc-public/peatio-tech
+    username: _json_key
+    password: ((gcr_password.hc_public))
+run:
+  path: sh
+  args: ["-exc", "echo success"]

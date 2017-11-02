@@ -1,5 +1,11 @@
 # Check `docs/pipeline.md` to get info about this file
 resource_types:
+  - name: slack-notification
+    type: docker-image
+    source:
+      repository: cfcommunity/slack-notification-resource
+      tag: latest
+
   - name: pull-request
     type: docker-image
     source:
@@ -9,76 +15,58 @@ resources:
   - name: peatio-tech-repository
     type: git
     source:
-      uri: https://github.com/rubykube/peatio-tech.git
+      uri: git@github.com:rubykube/peatio-tech.git
       branch: master
+      private_key: ((git_private_key))
 
   - name: pull-requests
     type: pull-request
     source:
       access_token: ((github_token))
       base: master
+      private_key: ((git_private_key))
       repo: rubykube/peatio-tech
+      uri: git@github.com:rubykube/peatio-tech.git
 
   - name: peatio-tech-image
     type: docker-image
     source:
-      repository: gcr.io/helios-devel/peatio-tech
+      repository: gcr.io/hc-public/peatio-tech
       username: _json_key
-      password: ((gcr_password))
+      password: ((gcr_password.hc_public))
+
+  - name: slack-alert
+    type: slack-notification
+    source:
+      url: https://hooks.slack.com/services/((slack_webhook))
 
 jobs:
-  - name: build-pull-request
+  - name: pr-build
     plan:
       - get: pull-requests
         trigger: true
       - task: tag
-        config:
-          platform: linux
-          image_resource:
-            type: docker-image
-            source:
-              repository: alpine
-          run:
-            path: sh
-            args: ['-c', 'echo test > tag/name']
-          outputs:
-            - name: tag
+        file: pull-requests/config/pipelines/tasks/create-pull-requests-tag.yml
       - put: peatio-tech-image
         params:
           build: pull-requests
           tag: tag/name
 
-  - name: build-master
+  - name: pr-unit
     serial: true
     plan:
-      - get: peatio-tech-repository
-        trigger: true
-      - put: peatio-tech-image
-        params:
-          build: peatio-tech-repository
-
-  - name: test-pull-request
-    plan:
       - get: pull-requests
-        passed:
-          - build-pull-request
+        passed: [pr-build]
         trigger: true
+      - get: peatio-tech-image
+        passed: [pr-build]
+        trigger: true
+      - put: pull-requests
+        params:
+          path: pull-requests
+          status: pending
       - task: run-tests
-        privileged: true
-        config:
-          platform: linux
-          image_resource:
-            type: docker-image
-            source:
-              repository: gcr.io/helios-devel/peatio-tech
-              tag: test
-              username: _json_key
-              password: ((gcr_password))
-          run:
-            path: bash
-            args: ["-c", "pushd /pull-requests && npm test"]
-          inputs:
-            - name: pull-requests
+        file: pull-requests/config/pipelines/tasks/run-tests.yml
         on_failure:
           put: pull-requests
           params:
@@ -89,3 +77,36 @@ jobs:
           params:
             path: pull-requests
             status: success
+
+  - name: master-build
+    serial: true
+    plan:
+      - get: peatio-tech-repository
+        trigger: true
+      - task: tag
+        file: peatio-tech-repository/config/pipelines/tasks/create-repository-tag.yml
+      - put: peatio-tech-image
+        params:
+          build: peatio-tech-repository
+          tag: tag/name
+      - put: slack-alert
+        params:
+          channel: 'general'
+          text: |
+            peatio-tech master branch was built and pushed!
+            Check it out at:
+            $ATC_EXTERNAL_URL/$BUILD_TEAM_NAME/pipelines/$BUILD_PIPELINE_NAME/jobs/$BUILD_JOB_NAME/builds/$BUILD_NAME
+            or at:
+            $ATC_EXTERNAL_URL/builds/$BUILD_ID
+
+  - name: master-unit
+    serial: true
+    plan:
+      - get: peatio-tech-repository
+        passed: [master-build]
+        trigger: true
+      - get: peatio-tech-image
+        passed: [master-build]
+        trigger: true
+      - task: run-tests
+        file: peatio-tech-repository/config/pipelines/tasks/run-tests.yml
