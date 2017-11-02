@@ -110,3 +110,13 @@ jobs:
         trigger: true
       - task: run-tests
         file: peatio-tech-repository/config/pipelines/tasks/run-tests.yml
+
+  - name: helm-deploy
+    serial: true
+    plan:
+      - get: peatio-tech-repository
+      - task: helm-deploy
+        file: peatio-tech-repository/config/pipelines/tasks/helm-deploy.yml
+        params:
+          GOOGLE_APPLICATION_JSON: ((gcr_password.hc_public))
+          KUBECONFIG_FILE: ((kubeconfig))
