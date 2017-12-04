@@ -11,7 +11,6 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
-    "@sendgrid/mail": "^6.1.4",
     "animate.css": "^3.5.2",
     "animsition": "^4.0.2",
     "axios": "^0.17.0",
@@ -30,6 +29,7 @@
     "jquery.easing": "^1.4.1",
     "owl.carousel": "^2.2.0",
     "owlcarousel-pre": "^1.3.3",
+    "request": "^2.83.0",
     "smoothscroll": "^0.3.0",
     "sweetalert": "^2.0.8",
     "tether": "^1.2.4",

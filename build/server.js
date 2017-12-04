@@ -1,14 +1,12 @@
 var express   = require('express');
-var sgMail    = require('@sendgrid/mail');
 var validator = require('email-validator');
 var app       = express();
 var cors      = require('cors');
+var request  = require('request');
 
 app.use(express.static('dist'))
 
 app.use(require('body-parser').json());
-
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -17,16 +15,26 @@ app.use(function(req, res, next) {
 });
 
 app.post('/subscribers', cors(), function(req, res, next) {
-  console.log(req.body);
-  if (validator.validate('' + req.body.email)) {
-    console.log('Processing email: ' + req.body.email);
-    sgMail.send({
-      to:      'hello@peatio.tech',
-      from:    'Peatio@tech',
-      subject: 'New contact request',
-      text:    req.body.email
+  var email = req.body.email + '';
+  var name = email.split('@');
+  var uri = 'https://hooks.zapier.com/hooks/catch/2773572/slszwk/';
+  var request = require('request');
+
+  if (validator.validate(email)) {
+    request.post({
+      url: uri,
+      headers: { "Content-Type": "application/json" },
+      body: {
+        name: name[0],
+        email: email
+      },
+      json:true
+    }, function(error, response, body){
+      console.log(error);
+      console.log(JSON.stringify(response));
+      console.log(body);
     });
-    res.status(201).send();
+    res.status(200).send();
   } else {
     res.status(422).send();
   }

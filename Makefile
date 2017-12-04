@@ -23,5 +23,8 @@ ci:
 deploy: push
 	@helm install ./config/charts/peatio-tech --set "image.tag=$(VERSION)"
 
+upgrade:
+	@helm upgrade landing ./config/charts/peatio-tech --set "image.tag=$(VERSION)"
+
 secret:
 	@kubectl create -n peatio-tech secret generic peatio-tech-secret --from-literal=sendgrid-api-key=$(SENDGRID_API_KEY)
