@@ -39,7 +39,7 @@
           </div>
           <div class="pricing-details">
             <h2>Peatio on your Cloud</h2>
-            <span>From €1900 / year</span>
+            <span>From €2900 / year</span>
             <div class="pricing-list">
               <ul>
                 <li>&bull; We deploy on AWS or GCP</li>
