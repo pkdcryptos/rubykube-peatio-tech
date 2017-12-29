@@ -20,7 +20,7 @@ app.post('/subscribers', cors(), function(req, res, next) {
   var uri = 'https://hooks.zapier.com/hooks/catch/2773572/slszwk/';
   var request = require('request');
 
-  if (validator.validate(email)) {
+  if (validator.validate(email) && req.body.company_name.length > 0) {
     request.post({
       url: uri,
       headers: { "Content-Type": "application/json" },

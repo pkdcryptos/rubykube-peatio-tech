@@ -1820,8 +1820,8 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .error-message {
-	margin-top: 40px;
-	width: 210px;
+	margin-top: -40px;
+	width: 220px;
 	border: 0;
 	color: white;
 	background-color: #ff7777;

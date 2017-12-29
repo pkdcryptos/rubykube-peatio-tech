@@ -17,7 +17,7 @@
                 <button v-on:click.prevent="postPost()" class="right button" type="submit" title="Send">Submit</button>
               </div>
               <div v-if="incorrect > 0" class="alert alert-danger error-message" role="alert">
-                Incorrect email address
+                Incorrect company name or email address
               </div>
             </form>
           </div>
