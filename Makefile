@@ -1,30 +1,34 @@
-VERSION := $(shell cat VERSION)
-IMAGE   := gcr.io/hc-public/peatio-tech:$(VERSION)
+VERSION     ?= $(shell cat VERSION)
+SERVICE     ?= peatio-tech
+SECRET_NAME ?= $(SERVICE)-secret
+IMAGE       := gcr.io/helios-stage/$(SERVICE):$(VERSION)
+CHART_NAME  ?= landing
+NAMESPACE   ?= peatio-tech
 
 .PHONY: default build push run ci deploy secret
 
 default: build run
 
 build:
-	@echo '> Building "peatio-tech" docker image...'
+	@echo '> Building "$(SERVICE)" docker image...'
 	@docker build -t $(IMAGE) .
 
 push: build
 	gcloud docker -- push $(IMAGE)
 
 run:
-	@echo '> Starting "peatio-tech" container...'
-	@docker run -d $(IMAGE)
+	@echo '> Starting "$(SERVICE)" container...'
+	@docker run -d --name $(CHART_NAME) -p 8080:8080 $(IMAGE)
 
 ci:
-	@fly -t ci set-pipeline -p peatio-tech -c config/pipelines/review.yml -n
-	@fly -t ci unpause-pipeline -p peatio-tech
+	@fly -t ci set-pipeline -p $(SERVICE) -c config/pipelines/review.yml -n
+	@fly -t ci unpause-pipeline -p $(SERVICE)
 
 deploy: push
-	@helm install ./config/charts/peatio-tech --set "image.tag=$(VERSION)"
+	@helm install ./config/charts/$(SERVICE) -n $(CHART_NAME) --namespace $(NAMESPACE) --set "image.tag=$(VERSION)"
 
 upgrade:
-	@helm upgrade landing ./config/charts/peatio-tech --set "image.tag=$(VERSION)"
+	@helm upgrade $(CHART_NAME) ./config/charts/$(SERVICE) --set "image.tag=$(VERSION)"
 
 secret:
-	@kubectl create -n peatio-tech secret generic peatio-tech-secret --from-literal=sendgrid-api-key=$(SENDGRID_API_KEY)
+	@kubectl create -n $(NAMESPACE) secret generic $(SECRET_NAME) --from-literal=sendgrid-api-key=$(SENDGRID_API_KEY)
