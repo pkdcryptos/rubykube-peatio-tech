@@ -7,10 +7,15 @@
           <p>Please submit your email to receive your peatio.tech demo link.</p>
           <div class="form">
             <form id="signup" class="formee clearfix" action="#" novalidate="novalidate">
-        ￼      <div style="float: left">
-                <input v-model="email" name="email" id="email" type="text" style="display: block; width: 100%">
+        ￼     <div class="form-name">
+                <input v-model="company_name" name="company_name" id="company_name" type="text" placeholder="Your Company name" style="display: block; width: 100%">
               </div>
-        ￼      <div style="float: left"><input v-on:click.prevent="postPost()" class="right inputnew" type="submit" title="Send" value="Submit" style="display: block; width: 100%"></div>
+              <div >
+                <input v-model="email" name="email" id="email" type="text" placeholder="Your Email" style="display: block; width: 100%">
+              </div>
+        ￼      <div class="form-button">
+                <button v-on:click.prevent="postPost()" class="right button" type="submit" title="Send">Submit</button>
+              </div>
               <div v-if="incorrect > 0" class="alert alert-danger error-message" role="alert">
                 Incorrect email address
               </div>
@@ -40,6 +45,7 @@
     data () {
       return {
         email: '',
+        company_name: '',
         show: true,
         incorrect: 0,
         errors: []
@@ -49,7 +55,8 @@
     methods: {
       postPost () {
         axios.post(`/subscribers`, {
-          email: this.email
+          email: this.email,
+          company_name: this.company_name
         })
         .then(response => {
           this.show = false

@@ -625,6 +625,22 @@ font-family: Arial;
 	color: #3333CC;
 }
 
+.form-name {
+	margin-bottom: 10px;
+}
+
+.form-button {
+	text-align: right;
+}
+
+.button {
+	border-radius: 5px !important;
+	height: 40px;
+}
+
+.button:hover {
+	background-color: #293b4e !important;
+}
 
 /*-----------------------------------------------------
 -------------- Image Bg Styling Starts ----------------
@@ -1918,7 +1934,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
   font-size: 0.9em;
 	height: 49px;
   border: 2px solid #FFF;
-  border-radius: 5px 0 0 5px;
+  border-radius: 5px 5px 5px 5px;
   border-color: #FFFFFF;
   outline: none;
   padding: 0 100px 0 20px;
@@ -1930,9 +1946,9 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .formee .right {
-  height: 49px;
-  border: 2px solid #FFF;
-  border-radius: 0 5px 5px 0;
+  height: 40px;
+  border: 0px solid #FFF;
+  border-radius: 5px 5px 5px 5px;
   margin: 0;
   padding: 0 25px 1px 25px;
   background-color: #212f3e;
